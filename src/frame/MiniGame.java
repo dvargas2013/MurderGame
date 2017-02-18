@@ -26,6 +26,7 @@ abstract public class MiniGame {
 
 					@Override
 					public void gainControl(DrawableCanvas listenerController) {
+						super.gainControl(listenerController);
 						setTitle(" - Canvas");
 					}
 
